@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    background-color: rgba(143, 41, 168, 0.808);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-weight: 700;
+}
+
+#calcular{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 192, 74);
+    transition: all .5s;
+}
+
+#calcular:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.cor-de-aprovado{
+    background-color: rgb(66, 255, 82) 
+}
+
+.cor-de-reprovado{
+    background-color: rgb(255, 56, 56) 
+}
+
+.cor-de-negacao{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.cor-nota-verde{
+    background-color:rgb(0, 216, 18);
+}
+
+.cor-nota-vermelha{
+    background-color:rgb(219, 0, 0);
+}
